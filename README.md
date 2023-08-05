@@ -20,7 +20,15 @@ The dataset was downloaded from [https://drive.google.com/drive/folders/19MRsL8Z
 
 
 # Model
-We utilised the YOLOv8 model to perform this project with four different experiments
+We utilised the YOLOv8 model to perform this project with four different experiments by hyper-tuned the parameters:
+
+Conf = 0.1, 0.2, and 0.25
+Epoch = 25 and 50
+Image size = 512 and 800
+
+The given sample images illustrate that the higher the conf value the less accurate in detecting the environment beside the "person"
+
+![Screen Shot 2023-08-05 at 14 47 29](https://github.com/LSardiani/Object_Detection/assets/135226112/16df4624-7cfa-454d-bc17-c14d65457a7e)
 
 Experiment 1 vs Experiment 2
 

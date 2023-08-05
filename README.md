@@ -16,7 +16,7 @@ YOLO (You Only Look Once) is a popular object detection model known for its spee
 # Getting started
 In this project, we utilised the Roboflow app from the extracted dataset and trained the models (https://roboflow.com/models)
 
-The dataset was downloaded from [[https://drive.google.com/drive/folders/19MRsL8ZWR9mXme-bSodyAUHrwIT2Eig7?usp=drive_link](https://universe.roboflow.com/dudrn5704-naver-com/coco2017-3000-person-ver)](https://app.roboflow.com/adalovelace/cocopersondetection/versions)
+The dataset was downloaded from (https://app.roboflow.com/adalovelace/cocopersondetection/versions)
 
 
 # Model

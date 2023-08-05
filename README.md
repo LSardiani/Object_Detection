@@ -16,7 +16,7 @@ YOLO (You Only Look Once) is a popular object detection model known for its spee
 # Getting started
 In this project, we utilised the Roboflow app from the extracted dataset and trained the models (https://roboflow.com/models)
 
-The dataset was downloaded from [https://drive.google.com/drive/folders/19MRsL8ZWR9mXme-bSodyAUHrwIT2Eig7?usp=drive_link](https://universe.roboflow.com/dudrn5704-naver-com/coco2017-3000-person-ver)
+The dataset was downloaded from [[https://drive.google.com/drive/folders/19MRsL8ZWR9mXme-bSodyAUHrwIT2Eig7?usp=drive_link](https://universe.roboflow.com/dudrn5704-naver-com/coco2017-3000-person-ver)](https://app.roboflow.com/adalovelace/cocopersondetection/versions)
 
 
 # Model
@@ -30,16 +30,19 @@ Image size = 512 and 800
 
 The given sample images illustrate that the higher the conf value the less accurate in detecting the environment beside the "person"
 
-![Screen Shot 2023-08-05 at 14 47 29](https://github.com/LSardiani/Object_Detection/assets/135226112/16df4624-7cfa-454d-bc17-c14d65457a7e)
+![Screen Shot 2023-08-05 at 21 05 02](https://github.com/LSardiani/Object_Detection/assets/135226112/e0e7744e-32c3-41b8-a759-f3ef2ca53fa8)
+
 
 Experiment 1 vs Experiment 2
 
-![Screen Shot 2023-08-05 at 14 02 12](https://github.com/LSardiani/Object_Detection/assets/135226112/181d6058-7085-4d42-97b3-7e3d2ed186be)
+![Screen Shot 2023-08-05 at 21 05 11](https://github.com/LSardiani/Object_Detection/assets/135226112/a7b3e5f8-b2e2-41dc-af78-d6ee6e4c934b)
+
 
 
 Experiment 3 vs Experiment 4
 
-![Screen Shot 2023-08-05 at 14 02 38](https://github.com/LSardiani/Object_Detection/assets/135226112/e82007a5-66be-4650-9fb0-becc2864151e)
+![Screen Shot 2023-08-05 at 21 04 52](https://github.com/LSardiani/Object_Detection/assets/135226112/a8b97093-49ce-4ab7-b11a-290f3c46bfe7)
+
 
 
 # Results
@@ -48,34 +51,43 @@ Training and Validation Curves
 
 Comparison between four models
 
-![Screen Shot 2023-08-05 at 14 03 05](https://github.com/LSardiani/Object_Detection/assets/135226112/d396b04b-eaad-46f7-914c-d4628d2aa161)
+![Screen Shot 2023-08-05 at 21 04 23](https://github.com/LSardiani/Object_Detection/assets/135226112/222db1e7-cd97-40d5-89e8-7d1fafe647a3)
+
 
 
 # Confusion Matrix
 
 Comparison between four models
 
-![Screen Shot 2023-08-05 at 14 02 55](https://github.com/LSardiani/Object_Detection/assets/135226112/cdd436c9-fc48-4a4e-af5f-d4dd72f2a7e6)
+![Screen Shot 2023-08-05 at 21 04 39](https://github.com/LSardiani/Object_Detection/assets/135226112/e22500c4-ee55-4012-bc85-0dafb399c467)
+
 
 
 # Actual prediction
 
-![Screen Shot 2023-08-05 at 14 03 31](https://github.com/LSardiani/Object_Detection/assets/135226112/a22f8f43-5b25-4286-a0c9-252e6494a9a8)
+![Screen Shot 2023-08-05 at 21 04 06](https://github.com/LSardiani/Object_Detection/assets/135226112/07e3a2ef-32bd-4c3b-8b44-c251fb9a2b38)
+
 
 
 Comparison between four models
 
-![Screen Shot 2023-08-05 at 14 03 20](https://github.com/LSardiani/Object_Detection/assets/135226112/8c0edc40-dba4-4493-872c-7395007adf97)
+![Screen Shot 2023-08-05 at 21 04 14](https://github.com/LSardiani/Object_Detection/assets/135226112/cf9f3a08-5d90-40d9-a0d5-2c418ff58260)
+
 
 
 # Deployment 
 
 Comparison between four models
 
-![Screen Shot 2023-08-05 at 14 03 44](https://github.com/LSardiani/Object_Detection/assets/135226112/0a0e4642-5dd3-4d03-bda5-ec572d7cc357)
+![Screen Shot 2023-08-05 at 21 03 50](https://github.com/LSardiani/Object_Detection/assets/135226112/e0985ee8-cd88-4814-be5f-38d2d9a21af3)
 
 
 It can be concluded that: the lower the image size, it can be predicted more accurate person in crowded (more than one person) images.
+
+# Summary for the four models:
+
+![Screen Shot 2023-08-05 at 21 03 37](https://github.com/LSardiani/Object_Detection/assets/135226112/bba80eec-960d-40b5-b704-e49e85028b86)
+
 
 
 # Contact

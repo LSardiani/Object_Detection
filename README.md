@@ -4,7 +4,7 @@ Project 2 Person Detection
 Hello there!
 This project was the second project (Project 2) from IndonesiaAI Computer Vision (CV) Bootcamp Batch 2.
 
-We extracted the COCO 2017 dataset and only used 3000 images with "person" annotations from Roboflow Dataset.
+We extracted the COCO 2017 dataset and only used 3500 images with "person" annotations from Roboflow Dataset (https://app.roboflow.com/adalovelace/cocopersondetection/versions).
 
 # Background
 Object detection and person detection are among the most recent and popular AI features and computer vision technologies. It can be utilised for security and insurance, nursing, health, and production. These recent technologies offer opportunities that can significantly increase customer satisfaction.

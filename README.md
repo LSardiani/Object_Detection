@@ -30,6 +30,8 @@ Image size = 512 and 800
 
 The given sample images illustrate that the higher the conf value the less accurate in detecting the environment beside the "person"
 
+The best Conf=0.2
+
 ![Screen Shot 2023-08-05 at 21 05 02](https://github.com/LSardiani/Object_Detection/assets/135226112/e0e7744e-32c3-41b8-a759-f3ef2ca53fa8)
 
 
@@ -47,9 +49,7 @@ Experiment 3 vs Experiment 4
 
 # Results
 
-Training and Validation Curves
-
-Comparison between four models
+Training and Validation Curves, Comparison between four models
 
 ![Screen Shot 2023-08-05 at 21 04 23](https://github.com/LSardiani/Object_Detection/assets/135226112/222db1e7-cd97-40d5-89e8-7d1fafe647a3)
 
@@ -82,13 +82,14 @@ Comparison between four models
 ![Screen Shot 2023-08-05 at 21 03 50](https://github.com/LSardiani/Object_Detection/assets/135226112/e0985ee8-cd88-4814-be5f-38d2d9a21af3)
 
 
-It can be concluded that: the lower the image size, it can be predicted more accurate person in crowded (more than one person) images.
 
 # Summary for the four models:
 
 ![Screen Shot 2023-08-05 at 21 03 37](https://github.com/LSardiani/Object_Detection/assets/135226112/bba80eec-960d-40b5-b704-e49e85028b86)
 
 
+# Conclusions: 
+The lower the image size, it can be predicted more accurate person in crowded (more than one person) images.
 
 # Contact
 Please reach me by email: lilysilva.dr@gmail.com for any further discussion.

@@ -23,7 +23,9 @@ The dataset was downloaded from [https://drive.google.com/drive/folders/19MRsL8Z
 We utilised the YOLOv8 model to perform this project with four different experiments by hyper-tuned the parameters:
 
 Conf = 0.1, 0.2, and 0.25
+
 Epoch = 25 and 50
+
 Image size = 512 and 800
 
 The given sample images illustrate that the higher the conf value the less accurate in detecting the environment beside the "person"
@@ -73,7 +75,10 @@ Comparison between four models
 ![Screen Shot 2023-08-05 at 14 03 44](https://github.com/LSardiani/Object_Detection/assets/135226112/0a0e4642-5dd3-4d03-bda5-ec572d7cc357)
 
 
+It can be concluded that: the lower the image size, it can be predicted more accurate person in crowded (more than one person) images.
+
+
 # Contact
-Please reach me my email: lilysilva.dr@gmail.com for any further discussion.
+Please reach me by email: lilysilva.dr@gmail.com for any further discussion.
 
 Thank you!
